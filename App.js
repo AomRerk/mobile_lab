@@ -7,14 +7,13 @@ export default function App() {
       <View style={[styles.container, { justifyContent: 'center' }]}>
         <Image
           style={{ width: 200, height: 200 }}
-          source={{
-            uri: 'https://reactnative.dev/img/tiny_logo.png',
-          }} />
+          source={require('./assets/IT_Logo.png')}
+        />
         <Text style={{ fontSize: 26 }}>คณะเทคโนโลยีสารสนเทศ</Text>
         <Text style={{ fontSize: 14 }}>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</Text>
-
       </View>
-      <View style={styles.button}>
+
+      <View>
         <Button
           title="PROGRAMS"
         />
@@ -35,16 +34,15 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: '#fff',
     alignItems: 'center',
-    // justifyContent: 'flex-end',
   },
-  button: {
-    width: 500,
-    // flexDirection: 'column',
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    // justifyContent: 'flex-end',
-    // width: '',
-  }
+  // button: {
+  //   minWidth: 300,
+  //   // flexDirection: 'column',
+  //   backgroundColor: '#fff',
+  //   alignItems: 'center',
+  //   // justifyContent: 'flex-end',
+  //   // width: '',
+  // }
 
 
 });
