@@ -6,14 +6,14 @@ export default function App() {
     <View style={styles.container}>
       <View style={[styles.container, { justifyContent: 'center' }]}>
         <Image
-          style={{ width: 200, height: 200 }}
+          style={{ width: 350, height: 290 }}
           source={require('./assets/IT_Logo.png')}
         />
         <Text style={{ fontSize: 26 }}>คณะเทคโนโลยีสารสนเทศ</Text>
         <Text style={{ fontSize: 14 }}>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</Text>
       </View>
 
-      <View>
+      <View style={[{ width: 280}, { justifyContent: 'space-around' }, {gap: 10}, {marginBottom: 10}]}>
         <Button
           title="PROGRAMS"
         />
